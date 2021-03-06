@@ -1,3 +1,4 @@
-var a= 4;
+var a= 22;
 
 console.log(a);
+console.log ("Hello World");
