@@ -260,7 +260,7 @@ switch (city) {
 // ”, “*”, “/”) and prints out the appropriate result. Watch out for division by zero!
 
 var a = 4;
-var b = 1323123;
+var b = 0;
 switch ("/") {
     case ("+"):
         console.log(a+b)
@@ -272,6 +272,11 @@ switch ("/") {
         console.log(a*b)
     break;
     case "/":
+        if(b===0) {
+            console.log("B cannot be zero")
+        }
+        else {
         console.log(a/b)
+        }
     break;
 }
