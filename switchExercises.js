@@ -202,7 +202,7 @@ switch (month) {
 
 var grade = "G"
 
-switch (grade) {
+switch ("G") {
     case "A":
         console.log("Good job")
     break;

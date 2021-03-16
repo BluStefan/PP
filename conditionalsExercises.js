@@ -167,4 +167,12 @@ Sample Input: 13 Sample Input: 34 Sample Input: 256
 Output : - Output : 20 ⇔ 100 Output : 100 ⇔ 400*/
 
 var a = 13
-if (a<20 && b)
+if (a>20 && a<100) {
+    console.log("The number is betwwen 20 and 100")
+}
+else if (a>100 && a<400) {
+    console.log('The number is between 100 and 400');  
+}
+else {
+    console.log('The number is not in range');
+}
